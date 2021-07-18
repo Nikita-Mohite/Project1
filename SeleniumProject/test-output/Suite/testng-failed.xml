@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="org.textPackage.GrowwTestClass2">
+        <methods>
+          <include name="Login"/>
+          <include name="Logout"/>
+          <include name="Test1"/>
+          <include name="gc"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenURL"/>
+          <include name="BrowserLounch"/>
+        </methods>
+      </class> <!-- org.textPackage.GrowwTestClass2 -->
+      <class name="org.textPackage.GrowwTestAssertion3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="OpenURl"/>
+          <include name="ValidationOfSellButton"/>
+          <include name="Login"/>
+          <include name="gc"/>
+          <include name="Logout"/>
+          <include name="BrowserLounch"/>
+        </methods>
+      </class> <!-- org.textPackage.GrowwTestAssertion3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

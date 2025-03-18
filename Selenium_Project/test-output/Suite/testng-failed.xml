@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" name="Test(failed)">
+    <classes>
+      <class name="org.testPackage.AmazonTest_Class">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="AfterSuiteMethod"/>
+          <include name="BeforeTestMethod"/>
+          <include name="AmazonLogin"/>
+          <include name="AfterTestMethod"/>
+          <include name="Logout"/>
+          <include name="Test"/>
+          <include name="BeforeSuiteMethod"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.testPackage.AmazonTest_Class -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="2" name="ChromeTest(failed)">
+    <classes>
+      <class name="org.testPackage.AmazonTest_Class">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="AfterSuiteMethod"/>
+          <include name="BeforeTestMethod"/>
+          <include name="AmazonLogin"/>
+          <include name="Logout"/>
+          <include name="AfterTestMethod"/>
+          <include name="Test"/>
+          <include name="launchBrowser"/>
+          <include name="BeforeSuiteMethod"/>
+        </methods>
+      </class> <!-- org.testPackage.AmazonTest_Class -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" name="FirfoxTest(failed)">
+    <classes>
+      <class name="org.testPackage.AmazonTest_Class">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="AfterSuiteMethod"/>
+          <include name="BeforeTestMethod"/>
+          <include name="AmazonLogin"/>
+          <include name="Logout"/>
+          <include name="AfterTestMethod"/>
+          <include name="Test"/>
+          <include name="launchBrowser"/>
+          <include name="BeforeSuiteMethod"/>
+        </methods>
+      </class> <!-- org.testPackage.AmazonTest_Class -->
+    </classes>
+  </test> <!-- FirfoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
